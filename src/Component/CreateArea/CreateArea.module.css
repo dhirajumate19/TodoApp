@@ -1,0 +1,56 @@
+.createArea {
+    position: relative;
+    width: fit-content;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    font-weight: 200px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    padding: 6px;
+    outline: none;
+    font-size: 2rem;
+    font-family: inherit;
+    resize: none;
+    text-decoration: none;
+}
+
+.field input,
+.field textarea {
+    padding: 4px;
+    border: 2px thistle;
+    font-size: 2rem;
+}
+
+.createArea button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+}
+
+.error {
+    position: relative;
+    justify-content: center;
+    width: 30%;
+}
+
+.error p {
+    color: rgb(241, 31, 31);
+    background-color: rgb(94, 88, 88);
+}
